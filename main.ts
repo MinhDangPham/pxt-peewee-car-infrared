@@ -1,3 +1,5 @@
+/*  
+
 type IRC = {
     l: DigitalPin,
     c: DigitalPin,
@@ -12,14 +14,20 @@ pins.setPull(IR.l, PinPullMode.PullNone);
 pins.setPull(IR.c, PinPullMode.PullNone);
 pins.setPull(IR.r, PinPullMode.PullNone);
 
+*/
+
 //================================//
 
+/*  
+
 let data: number;
-basic.forever(function () {
+    basic.forever(function () {
     data = pins.digitalReadPin(IR.l);
     console.log(data);
     basic.pause(20)
 })
+
+*/
 
 //================================//
 
